@@ -11,9 +11,9 @@ description: > # this means to ignore newlines until "baseurl:"
 paginate: 5
 paginate_path: "/page/:num"
 
-baseurl: '/'
+baseurl: 'http://betweenpipes.com/'
 
-url: "http://betweenpipes.com/" # the base hostname & protocol for your site
+url: "http://betweenpipes.com" # the base hostname & protocol for your site
 
 twitter_username: betweenscreens_
 
