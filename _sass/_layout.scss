@@ -278,3 +278,10 @@ img.cube_logo {
 		}
 	}
 }
+
+span.username {
+  color: $grey-color-dark; 
+  &:hover {
+    color: $red;
+  }
+}
