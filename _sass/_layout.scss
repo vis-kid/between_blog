@@ -258,3 +258,20 @@ a.page-link.rss-subscribe {
     display: none;
 	}
 }
+
+img.cube_logo {
+  width: 9.3%;
+	height: 9.3%;
+	margin-top: 11px;
+	margin-left: -190px;
+	opacity: 0;
+	&:hover {
+    opacity: 0;
+	}
+	@media (min-width: 1000px) {
+		opacity: 1;
+		&:hover {
+      opacity: 0.8;
+		}
+	}
+}
