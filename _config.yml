@@ -14,8 +14,8 @@ paginate_path: "/page/:num"
 permalink: pretty
 relative_permalinks: true
 
-baseurl: 'http://betweenpipes.com'
-#baseurl: '/'
+#baseurl: 'http://betweenpipes.com'
+baseurl: '/'
 
 url: "http://betweenpipes.com" # the base hostname & protocol for your site
 
