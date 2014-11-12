@@ -12,6 +12,7 @@ paginate: 5
 paginate_path: "/page/:num"
 
 baseurl: 'http://betweenpipes.com'
+#baseurl: '/'
 
 url: "http://betweenpipes.com" # the base hostname & protocol for your site
 
