@@ -194,8 +194,15 @@ a.site-title {
     }
 }
 
+.post .post-meta {
+  font-size: 22px;
+}
+
+p.post-meta {
+  margin-bottom: 40px;
+}
+
 .post-meta {
-    font-size: $small-font-size;
     color: $grey-color;
 }
 
@@ -217,9 +224,10 @@ a.site-title {
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 40px;
+		color: $red;
     letter-spacing: -1px;
-    line-height: 1;
+    line-height: 1.1;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -293,4 +301,9 @@ span.username {
 	&:last-child {
     border-bottom: none; 
 	}
+}
+
+.episode_number {
+  font-size: 22px;
+  color: $grey-color;
 }
