@@ -8,57 +8,56 @@ layout: default
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
-<div id='episode_wrapper'>
-<!-- Interviewee01 -->
-<article class='episode_wrapper'>
-  {% if page.interviewee01_name %}
-    <h5 class='episode_number'>{{ page.interviewee01_episode_number }}</h5>
-    <h2 class='keywords'>{{ page.interviewee01_keywords }}</h2>
-    <h3 class='interviewee_name'>{{ page.interviewee01_name }}</h3>
-    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ page.interviewee01_SC_id }}&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-  {% endif %}
-</article>
+{% if page.interviewee01_name %}
+  <div id='episode_wrapper'>
 
-<!-- Interviewee02 -->
-<article class='episode_wrapper'>
-  {% if page.interviewee02_name %}
-    <h5 class='episode_number'>{{ page.interviewee02_episode_number }}</h5>
-    <h2 class='keywords'>{{ page.interviewee02_keywords }}</h2>
-    <h3 class='interviewee_name'>{{ page.interviewee02_name }}</h3>
-    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ page.interviewee02_SC_id }}&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-  {% endif %}
-</article>
+    <article class='episode_wrapper'>
+      {% if page.interviewee01_name %}
+        <h5 class='episode_number'>{{ page.interviewee01_episode_number }}</h5>
+        <h2 class='keywords'>{{ page.interviewee01_keywords }}</h2>
+        <h3 class='interviewee_name'>{{ page.interviewee01_name }}</h3>
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ page.interviewee01_SC_id }}&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+      {% endif %}
+    </article>
+    
+    <article class='episode_wrapper'>
+      {% if page.interviewee02_name %}
+        <h5 class='episode_number'>{{ page.interviewee02_episode_number }}</h5>
+        <h2 class='keywords'>{{ page.interviewee02_keywords }}</h2>
+        <h3 class='interviewee_name'>{{ page.interviewee02_name }}</h3>
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ page.interviewee02_SC_id }}&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+      {% endif %}
+    </article>
+    
+    <article class='episode_wrapper'>
+      {% if page.interviewee03_name %}
+        <h5 class='episode_number'>{{ page.interviewee03_episode_number }}</h5>
+        <h2 class='keywords'>{{ page.interviewee03_keywords }}</h2>
+        <h3 class='interviewee_name'>{{ page.interviewee03_name }}</h3>
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ page.interviewee03_SC_id }}&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+      {% endif %}
+    </article>
+    
+    <article class='episode_wrapper'>
+      {% if page.interviewee04_name %}
+        <h5 class='episode_number'>{{ page.interviewee04_episode_number }}</h5>
+        <h2 class='keywords'>{{ page.interviewee04_keywords }}</h2>
+        <h3 class='interviewee_name'>{{ page.interviewee04_name }}</h3>
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ page.interviewee04_SC_id }}&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+      {% endif %}
+    </article>
+    
+    <article class='episode_wrapper'>
+      {% if page.interviewee05_name %}
+        <h5 class='episode_number'>{{ page.interviewee05_episode_number }}</h5>
+        <h2 class='keywords'>{{ page.interviewee05_keywords }}</h2>
+        <h3 class='interviewee_name'>{{ page.interviewee05_name }}</h3>
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ page.interviewee05_SC_id }}&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+      {% endif %}
+    </article>
 
-<!-- Interviewee03 -->
-<article class='episode_wrapper'>
-  {% if page.interviewee03_name %}
-    <h5 class='episode_number'>{{ page.interviewee03_episode_number }}</h5>
-    <h2 class='keywords'>{{ page.interviewee03_keywords }}</h2>
-    <h3 class='interviewee_name'>{{ page.interviewee03_name }}</h3>
-    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ page.interviewee03_SC_id }}&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-  {% endif %}
-</article>
-
-<!-- Interviewee04 -->
-<article class='episode_wrapper'>
-  {% if page.interviewee04_name %}
-    <h5 class='episode_number'>{{ page.interviewee04_episode_number }}</h5>
-    <h2 class='keywords'>{{ page.interviewee04_keywords }}</h2>
-    <h3 class='interviewee_name'>{{ page.interviewee04_name }}</h3>
-    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ page.interviewee04_SC_id }}&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-  {% endif %}
-</article>
-
-<!-- Interviewee05 -->
-<article class='episode_wrapper'>
-  {% if page.interviewee05_name %}
-    <h5 class='episode_number'>{{ page.interviewee05_episode_number }}</h5>
-    <h2 class='keywords'>{{ page.interviewee05_keywords }}</h2>
-    <h3 class='interviewee_name'>{{ page.interviewee05_name }}</h3>
-    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ page.interviewee05_SC_id }}&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-  {% endif %}
-</article>
-</div>
+  </div>
+{% endif %}
 
 <article class="post-content">
   {{ content }}
