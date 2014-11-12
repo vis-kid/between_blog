@@ -286,8 +286,11 @@ span.username {
   }
 }
 
-.episode_wrapper {
-  border-bottom: 1px solid rgba($grey-color-dark, 0.2);
+#episode_wrapper article {
 	padding-bottom: 50px;
 	margin-bottom: 50px;
+  border-bottom: 1px solid rgba($grey-color-dark, 0.2);
+	&:last-child {
+    border-bottom: none; 
+	}
 }
