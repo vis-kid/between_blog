@@ -1,16 +1,16 @@
 ---
 layout: post
 
-title: Avdi Grimm NSC| Steve Klabnik | Ryan Singer | Coby Chapple | Natalie Weizenbaum
+title: Avdi Grimm SC | Brandon Mathis | Steve Klabnik | Max Luster | Coby Chapple
 
 interviewee01_episode_number: 01
 interviewee01_name: Avdi Grimm
-interviewee01_keywords: Rake Origins | Jim Weihrich | File Utils Module | Rake Tasks
+interviewee01_keywords: Rake Origin | Jim Weihrich | Task Managment | Working @ Facebook 
 interviewee01_SC_id: 163421846 
 
 interviewee02_episode_number: 02
 interviewee02_name: Coby Chapple
-interviewee02_keywords: Rake Origins | Jim Weihrich | File Utils Module | Rake Tasks
+interviewee02_keywords: Rake Origins | Jim Weihrich | File Utils Module | Rake Tasks | Rake Origins | Jim Weihrich | File Utils Module | Rake Tasks
 interviewee02_SC_id: 163421846
 
 interviewee03_episode_number: 03
