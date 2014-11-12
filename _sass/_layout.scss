@@ -200,8 +200,11 @@ a.site-title {
 }
 
 .post-link {
-    display: block;
-    font-size: 24px;
+  font-size: 32px;
+  &:hover {
+    color: $red;     
+    border-bottom: 2px solid $red;
+  }
 }
 
 
