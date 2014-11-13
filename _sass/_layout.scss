@@ -280,11 +280,12 @@ a.page-link.rss-subscribe {
 }
 
 img.cube_logo {
+	display: block;
   width: 8.8%;
 	height: 8.8%;
-	margin-top: 12px;
-	margin-left: -185px;
-	display: block;
+	padding-top: 23px;
+	margin-bottom: -77px;
+	margin-left: -137px;
 	opacity: 0;
 	&:hover {
     opacity: 0;
