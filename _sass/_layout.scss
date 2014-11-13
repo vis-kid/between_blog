@@ -32,7 +32,7 @@ a.site-title {
     float: right;
     margin-top: 14px;
     @include media-query($on-palm) {
-      margin-top: 4px;
+      margin-top: 0px;
 		}
     .menu-icon {
         display: none;
@@ -73,7 +73,6 @@ a.site-title {
             width: 36px;
             height: 26px;
             line-height: 0;
-            padding-top: 10px;
             text-align: center;
 
             > svg {
