@@ -312,6 +312,8 @@ span.username {
   border-bottom: 1px solid rgba($grey-color-dark, 0.15);
 	&:last-child {
     border-bottom: none; 
+		margin-bottom: 0px;
+		padding-bottom: 12px;
 	}
 }
 
