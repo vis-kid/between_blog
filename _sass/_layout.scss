@@ -3,7 +3,6 @@
  */
 .site-header {
     border-top: 2px solid $red;
-    min-height: 56px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -85,16 +84,17 @@ a.site-title {
         }
 
         .trigger {
-            display: none;
+          clear: both;
+          display: none;
         }
 
         &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
+          display: block;
+          padding-bottom: 5px;
         }
 
         .page-link {
-            display: block;
+          display: block;
         }
     }
 }
