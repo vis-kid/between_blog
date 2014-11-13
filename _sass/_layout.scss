@@ -347,9 +347,19 @@ span.username {
 	margin-bottom: 2px;
 }
 
-.episode_length {
+span.episode_length {
   color: lighten($grey-color, 20%);
   font-style: normal;
+  display: inline;
+	margin-top: 2px;
+	&::first-letter {
+    display: hide;
+		color: white;
+		margin-left: -12px;
+	}
+  @include media-query($on-palm) {
+    display: block;
+  }
 }
 
 h2.keywords {
