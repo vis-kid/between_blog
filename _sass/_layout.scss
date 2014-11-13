@@ -355,7 +355,7 @@ span.episode_length {
 	&::first-letter {
     display: hide;
 		color: white;
-		margin-left: -12px;
+		margin-left: -18px;
 	}
   @include media-query($on-palm) {
     display: block;
