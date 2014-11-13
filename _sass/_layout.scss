@@ -215,7 +215,7 @@ a.site-title {
 }
 
 .post .post-meta {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 p.post-meta {
@@ -223,7 +223,7 @@ p.post-meta {
 }
 
 .post-meta {
-  color: $grey-color;
+  color: lighten($grey-color, 20%);
 }
 
 span.post-meta {
