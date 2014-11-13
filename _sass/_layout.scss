@@ -8,6 +8,13 @@
     position: relative;
 }
 
+.site-header .wrapper {
+  margin-top: 0px;
+	@include media-query($on-palm) {
+    margin-top: 25px;
+  }
+}
+
 a.site-title {
   text-decoration: none;
 	color: $grey-color-dark;
