@@ -348,7 +348,7 @@ span.username {
 }
 
 .episode_length {
-  color: $grey-color-dark;
+  color: lighten($grey-color, 20%);
   font-style: normal;
 }
 
