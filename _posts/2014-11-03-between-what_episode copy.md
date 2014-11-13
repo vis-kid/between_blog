@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Avdi Grimm E | Brandon Mathis | Steve Klabnik | Max Luster | Coby Chapple
+title:  Avdi Grim | Brandon Mathis | Steve Klabnik | Max Luster | Coby Chapple
 
 interviewee_01: Avdi Grimm
 interviewee_01_keywords: Rake Origin | Jim Weihrich | Task Managment | Working @ Facebook  
