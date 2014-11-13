@@ -75,6 +75,8 @@ a.site-title {
             text-align: center;
 
             > svg {
+                width: 18px;
+                height: 15px;
 
                 path {
                     fill: $grey-color-dark;
@@ -83,7 +85,6 @@ a.site-title {
         }
 
         .trigger {
-            clear: both;
             display: none;
         }
 
