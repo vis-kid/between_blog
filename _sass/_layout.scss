@@ -25,6 +25,7 @@ a.site-title {
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
+		margin-left: -15px;
     float: left;
 }
 
@@ -283,7 +284,6 @@ img.cube_logo {
   width: 8.8%;
 	height: 8.8%;
 	margin-top: 12px;
-	margin-left: -185px;
 	opacity: 0;
 	&:hover {
     opacity: 0;
