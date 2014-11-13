@@ -67,9 +67,7 @@ a.site-title {
       }
 
     @include media-query($on-palm) {
-        position: absolute;
-        top: 21px;
-        right: 30px;
+        margin-top: 19px;
         background-color: $background-color;
         border-radius: 5px;
         text-align: right;
