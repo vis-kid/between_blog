@@ -308,7 +308,7 @@ span.username {
 #episode_wrapper article {
 	padding-bottom: 50px;
 	margin-bottom: 50px;
-  border-bottom: 1px solid rgba($grey-color-dark, 0.2);
+  border-bottom: 1px solid rgba($grey-color-dark, 0.15);
 	&:last-child {
     border-bottom: none; 
 	}
@@ -321,7 +321,7 @@ span.username {
 }
 
 h2.keywords {
-  font-size: 30px;
+  font-size: 29px;
 	color: $grey-color-dark;
 	line-height: 1.4;
 	margin-bottom: 0px;
