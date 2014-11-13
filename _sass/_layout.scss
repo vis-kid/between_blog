@@ -203,6 +203,17 @@ a.site-title {
     }
 }
 
+.post-list li {
+  border-bottom: 1px solid rgba($grey-color-dark, 0.15);
+  padding-bottom: 7px;
+  margin-bottom: 52px;
+  &:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+	}
+}
+
 .post .post-meta {
   font-size: 22px;
 }
