@@ -1,0 +1,271 @@
+/**
+ * Site header
+ */
+.site-header {
+    border-top: 2px solid $red;
+    min-height: 56px;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
+a.site-title {
+  text-decoration: none;
+	color: $grey-color-dark;
+	&::first-letter {
+    color: $red;
+	}
+	&:hover {
+    color: $red;
+	}
+}
+
+.site-title {
+    font-size: 28px;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+		margin-left: -15px;
+    float: left;
+}
+
+
+
+.trigger {
+  margin-top: 4px;
+}
+
+
+/**
+ * Site footer
+ */
+.site-footer {
+    border-top: 1px solid rgba($red, 0.2);
+    padding: $spacing-unit 0;
+}
+
+.footer-heading {
+    font-size: 18px;
+    margin-bottom: $spacing-unit / 2;
+}
+
+.contact-list,
+.social-media-list {
+    list-style: none;
+    margin-left: 0;
+}
+
+.footer-col-wrapper {
+    font-size: 15px;
+    color: $grey-color;
+    margin-left: -$spacing-unit / 2;
+    @extend %clearfix;
+}
+
+.footer-col {
+    float: left;
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+}
+
+.footer-col-1 {
+    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    width:         calc(35% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(20% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-3 {
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-laptop) {
+    .footer-col-1,
+    .footer-col-2 {
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
+    }
+
+    .footer-col-3 {
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+@include media-query($on-palm) {
+    .footer-col {
+        float: none;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: $spacing-unit 0;
+		padding-top: 0px;
+}
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post .post-meta {
+  font-size: 22px;
+}
+
+p.post-meta {
+  margin-bottom: 40px;
+}
+
+.post-meta {
+  color: $grey-color;
+}
+
+span.post-meta {
+  margin-bottom: 3px;
+	display: block;
+}
+
+.post-link {
+  font-size: 30px;
+	line-height: 1.3;
+  &:hover {
+    color: $red;     
+    border-bottom: 2px solid $red;
+  }
+}
+
+.post-list h2 {
+  margin-bottom: 0px;
+}
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-size: 42px;
+		color: $red;
+    letter-spacing: -1px;
+    line-height: 1.1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+}
+
+a.page-link.rss-subscribe {
+  color: $red;
+	font-weight: 400;
+  @include media-query($on-palm) {
+    display: none;
+	}
+}
+
+img.cube_logo {
+  width: 8.8%;
+	height: 8.8%;
+	margin-top: 12px;
+	margin-left: -185px;
+	opacity: 0;
+	&:hover {
+    opacity: 0;
+	}
+	@media (min-width: 1000px) {
+		opacity: 1;
+		&:hover {
+      opacity: 0.8;
+		}
+	}
+}
+
+span.username {
+  color: $grey-color-dark; 
+  &:hover {
+    color: $red;
+  }
+}
+
+#episode_wrapper article {
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+  border-bottom: 1px solid rgba($grey-color-dark, 0.15);
+	&:last-child {
+    border-bottom: none; 
+	}
+}
+
+.episode_number {
+  font-size: 22px;
+  color: $grey-color;
+	margin-bottom: 0px;
+}
+
+h2.keywords {
+  font-size: 29px;
+	color: $grey-color-dark;
+	line-height: 1.4;
+	margin-bottom: 0px;
+}
+
+h3.interviewee_name {
+  color: $red;
+	font-style: italic;
+	font-size: 22px;
+}
+
+h3.list-keywords {
+  color: $grey-color-dark;
+	font-size: 22px;
+	line-height: 1.55;
+	margin-bottom: 41px;
+}
