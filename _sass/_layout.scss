@@ -21,7 +21,7 @@ a.site-title {
 }
 
 .site-title {
-    font-size: 30px;
+    font-size: 28px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -179,6 +179,7 @@ a.site-title {
  */
 .page-content {
     padding: $spacing-unit 0;
+		padding-top: 0px;
 }
 
 .page-heading {
@@ -203,18 +204,30 @@ p.post-meta {
 }
 
 .post-meta {
-    color: $grey-color;
+  color: $grey-color;
+}
+
+span.post-meta {
+  margin-bottom: 3px;
+	display: block;
 }
 
 .post-link {
-  font-size: 32px;
+  font-size: 30px;
+	line-height: 1.3;
   &:hover {
     color: $red;     
     border-bottom: 2px solid $red;
   }
 }
 
+a.post-link {
+	display: block;
+}
 
+.post-list h2 {
+  margin-bottom: 0px;
+}
 
 /**
  * Posts
@@ -271,10 +284,10 @@ a.page-link.rss-subscribe {
 }
 
 img.cube_logo {
-  width: 9.3%;
-	height: 9.3%;
-	margin-top: 11px;
-	margin-left: -190px;
+  width: 8.8%;
+	height: 8.8%;
+	margin-top: 12px;
+	margin-left: -185px;
 	opacity: 0;
 	&:hover {
     opacity: 0;
@@ -306,16 +319,24 @@ span.username {
 .episode_number {
   font-size: 22px;
   color: $grey-color;
+	margin-bottom: 0px;
 }
 
 h2.keywords {
   font-size: 30px;
 	color: $grey-color-dark;
 	line-height: 1.4;
+	margin-bottom: 0px;
 }
 
 h3.interviewee_name {
   color: $red;
 	font-style: italic;
 	font-size: 22px;
+}
+
+h3.list-keywords {
+  color: $grey-color-dark;
+	font-size: 22px;
+	line-height: 1.55;
 }
