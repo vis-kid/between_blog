@@ -29,7 +29,75 @@ a.site-title {
     float: left;
 }
 
+.site-nav {
+    float: right;
+		margin-top: 14px;
+    .menu-icon {
+        display: none;
+    }
 
+    .page-link {
+        color: $grey-color-dark;
+				font-weight: 400;
+        line-height: $base-line-height;
+				&:hover {
+          color: $red;
+					border-bottom: 1px solid $red;
+				}
+
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 20px;
+        }
+        @include media-query($on-palm) {
+				  &:hover {
+            color: $grey-color-dark;
+						border-bottom: none;
+				  }
+			  }
+      }
+
+    @include media-query($on-palm) {
+        position: absolute;
+        top: 21px;
+        right: 30px;
+        background-color: $background-color;
+        border-radius: 5px;
+        text-align: right;
+
+        .menu-icon {
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg {
+                width: 18px;
+                height: 15px;
+
+                path {
+                    fill: $grey-color-dark;
+                }
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+        }
+    }
+}
 
 .trigger {
   margin-top: 4px;
