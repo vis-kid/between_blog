@@ -110,6 +110,7 @@ a.site-title {
 .site-footer {
     border-top: 1px solid rgba($red, 0.2);
     padding: $spacing-unit 0;
+		padding-bottom: 1px;
 }
 
 .footer-heading {
@@ -301,9 +302,14 @@ img.cube_logo {
 
 span.username {
   color: $grey-color-dark; 
+	margin-bottom: 20px;
   &:hover {
     color: $red;
   }
+}
+
+.social-media-list li {
+  margin-bottom: 4px;
 }
 
 #episode_wrapper article {
