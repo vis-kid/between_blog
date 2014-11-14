@@ -394,8 +394,8 @@ h3.list-keywords {
 }
 
 .pagination a {
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 4px;
+  margin-right: 4px;
   &:first-child {
     margin-left: 0px;
 	}
@@ -427,17 +427,20 @@ h3.list-keywords {
 }
 
 .home_arrow, .end_of_list_arrow {
-  font-size: 24px;
+  font-size: 22px;
   &:hover {
     border-bottom: 1px solid $red;
     color: $red;
 	}
 }
 
-.home_arrow {
+a.home_arrow {
+  margin-right: 0px;
 }
 
-.end_of_list_arrow {
+a.end_of_list_arrow {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .inactive_arrow {
