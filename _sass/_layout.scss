@@ -226,7 +226,8 @@ a.site-title {
 }
 
 p.post-meta {
-  margin-bottom: 44px;
+  margin-top: 33px;
+  margin-bottom: 1px;
 }
 
 .post-meta {
@@ -263,8 +264,7 @@ span.post-meta {
 		color: $red;
     letter-spacing: -1px;
     line-height: 1.15;
-    margin-bottom: 1px;
-    margin-top: 32px;
+    margin-bottom: 42px;
 
     @include media-query($on-laptop) {
         font-size: 36px;
