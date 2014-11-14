@@ -208,7 +208,7 @@ a.site-title {
 }
 
 .post-list li {
-  border-bottom: 1px solid rgba($grey-color-dark, 0.15);
+  border-bottom: 1px solid rgba($grey-color-dark, 0.1);
   padding-bottom: 7px;
   margin-bottom: 52px;
   &:first-child {
@@ -342,7 +342,7 @@ span.username {
 #episode_wrapper article {
 	padding-bottom: 50px;
 	margin-bottom: 50px;
-  border-bottom: 1px solid rgba($grey-color-dark, 0.15);
+  border-bottom: 1px solid rgba($grey-color-dark, 0.1);
 	&:last-child {
     border-bottom: none; 
 		margin-bottom: 92px;
