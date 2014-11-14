@@ -394,8 +394,8 @@ h3.list-keywords {
 }
 
 .pagination a {
-  margin-left: 4px;
-  margin-right: 4px;
+  margin-left: 5px;
+  margin-right: 5px;
   &:first-child {
     margin-left: 0px;
 	}
@@ -417,13 +417,14 @@ h3.list-keywords {
     color: $red;
     border-bottom: 1px solid $red;
 	}
+  @include media-query($on-palm) {
+    font-size: 26px;
+  }
 }
 
 .inactive_paginator_text {
   color: $grey-color-dark;
   font-size: 20px;
-  margin-right: 7px;
-  margin-left: 7px;
 }
 
 .home_arrow, .end_of_list_arrow {
