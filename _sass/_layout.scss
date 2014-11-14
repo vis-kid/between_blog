@@ -448,3 +448,9 @@ a.end_of_list_arrow {
   font-size: 18px;
 }
 
+.pagination_links_wrapper {
+  display: inline;
+	@include media-query($on-palm) {
+    display: none;
+  }
+}

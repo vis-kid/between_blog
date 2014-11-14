@@ -29,15 +29,17 @@ layout: default
     <span class='inactive_paginator_text'>Prev</span>
   {% endif %}
 
-  {% for page in (paginator.page..paginator.total_pages) | limit: 5 %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
+  <div class='pagination_links_wrapper'>
+    {% for page in (paginator.page..paginator.total_pages) | limit: 5 %}
+      {% if page == paginator.page %}
+        <em>{{ page }}</em>
+      {% elsif page == 1 %}
+        <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+      {% else %}
+        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
 
   {% if paginator.next_page %}
     <a class='active_paginator_text' href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a>
