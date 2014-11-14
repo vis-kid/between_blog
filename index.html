@@ -29,7 +29,7 @@ layout: default
     <span class='inactive_paginator_text'>Prev</span>
   {% endif %}
 
-  {% for page in (paginator.page..paginator.total_pages) | limit: 7 %}
+  {% for page in (paginator.page..paginator.total_pages) | limit: 5 %}
     {% if page == paginator.page %}
       <em>{{ page }}</em>
     {% elsif page == 1 %}
