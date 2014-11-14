@@ -211,6 +211,9 @@ a.site-title {
   border-bottom: 1px solid rgba($grey-color-dark, 0.15);
   padding-bottom: 7px;
   margin-bottom: 52px;
+  &:first-child {
+    margin-top: 33px;
+	}
   &:last-child {
     border-bottom: none;
     padding-bottom: 0px;
@@ -261,6 +264,7 @@ span.post-meta {
     letter-spacing: -1px;
     line-height: 1.15;
     margin-bottom: 1px;
+    margin-top: 32px;
 
     @include media-query($on-laptop) {
         font-size: 36px;
