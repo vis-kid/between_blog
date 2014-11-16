@@ -33,6 +33,9 @@ a.site-title {
     margin-bottom: 0;
 		margin-left: -15px;
     float: left;
+    @include media-query($on-palm) {
+      margin-left: 0px;
+		}
 }
 
 .site-nav {
