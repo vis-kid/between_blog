@@ -359,7 +359,7 @@ span.username {
 	margin-bottom: 2px;
 }
 
-span.episode_length {
+span.episode_length, .episode_length {
   color: lighten($grey-color, 20%);
   font-style: normal;
   display: inline;
@@ -372,6 +372,13 @@ span.episode_length {
   @include media-query($on-palm) {
     display: block;
   }
+}
+
+a.show_note_link {
+  text-decoration: none;
+  &:hover {
+    color: $red;
+	}
 }
 
 h2.keywords {
