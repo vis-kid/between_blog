@@ -445,8 +445,8 @@ a.active_paginator_text {
 	display: none;
 }
 
-.home_arrow, .end_of_list_arrow {
-  font-size: 22px;
+a.home_arrow, a.end_of_list_arrow {
+  font-size: 28px;
   &:hover {
     border-bottom: 1px solid $red;
     color: $red;
