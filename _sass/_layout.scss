@@ -404,7 +404,7 @@ h3.list-keywords {
 
 .pagination {
   margin-top: 92px;
-  margin-bottom: 2px;
+  margin-bottom: 46px;
 }
 
 .pagination a {
@@ -437,8 +437,7 @@ h3.list-keywords {
 }
 
 .inactive_paginator_text {
-  color: $grey-color-dark;
-  font-size: 20px;
+	display: none;
 }
 
 .home_arrow, .end_of_list_arrow {
@@ -459,7 +458,7 @@ a.end_of_list_arrow {
 }
 
 .inactive_arrow {
-  font-size: 18px;
+	display: none;
 }
 
 .pagination_links_wrapper {
