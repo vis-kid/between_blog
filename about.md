@@ -12,3 +12,5 @@ Expect to find content about the following topics:
 Ruby, Rails, Sinatra, Design Patterns, Jekyll, Reponsive Design, Git, Javascript, Client-Side Web Apps, Typopgraphy, Web Design, Sass, Prototyping, Letter Design and more …  
 
 Your feedback is always welcome. Reaching out on Twitter via [@BetweenScreens\_](http://twitter.com/BetweenScreens_) is a good start for any conversation.
+
+Have a nice day!
