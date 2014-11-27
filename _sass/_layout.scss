@@ -226,10 +226,11 @@ a.site-title {
 }
 
 .post .post-meta {
-  font-size: 26px;
-	margin-bottom: 42px;
-	margin-top: 29px;
-	color: $red;
+  font-size: 36px;
+  margin:
+    top: 26px;
+    bottom: 37px;
+  color: $grey-color-dark;
 }
 
 p.post-meta {
