@@ -40,7 +40,7 @@ a.site-title {
 
 .site-nav {
     float: right;
-    margin-top: 13px;
+    margin-top: 12px;
     @include media-query($on-palm) {
       margin-top: 0px;
 		}
