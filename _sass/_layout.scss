@@ -226,10 +226,13 @@ a.site-title {
 }
 
 .post .post-meta, .post .post-meta-small {
+  color: lighten($grey-color, 20%);
+}
+
+.post .post-meta {
   font-size: 30px;
-  margin-top: 26px;
-  margin-bottom: 37px;
-  color: rgba($grey-color-dark, 0.25);
+  margin-top: 27px;
+  margin-bottom: 40px;
 }
 
 .post .post-meta-small {
