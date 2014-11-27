@@ -225,11 +225,17 @@ a.site-title {
 	}
 }
 
-.post .post-meta {
-  font-size: 36px;
+.post .post-meta, .post .post-meta-small {
+  font-size: 30px;
   margin-top: 26px;
   margin-bottom: 37px;
   color: rgba($grey-color-dark, 0.25);
+}
+
+.post .post-meta-small {
+  font-size: 18px;
+  margin-top: 33px;
+  margin-bottom: 41px;
 }
 
 p.post-meta {
