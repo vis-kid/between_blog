@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Between | What? - Micro Manifest"
+title:  "Between | What? - Micro Manifesto"
 date:   2014-11-03 19:05:00
 categories: jekyll update
 ---
