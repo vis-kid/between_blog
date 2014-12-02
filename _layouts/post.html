@@ -15,8 +15,8 @@ layout: default
 {% if page.interviewee01_name %}
   <div id='episode_wrapper'>
 
+  {% if page.interviewee01_name %}
     <article class='episode_wrapper'>
-      {% if page.interviewee01_name %}
         <h5 class='episode_number'>#{{ page.interviewee01_episode_number }}</h5>
         <h2 class='keywords'>{{ page.interviewee01_keywords }}</h2>
         <h3 class='interviewee_name'>{{ page.interviewee01_name }}
@@ -27,11 +27,11 @@ layout: default
             href='{{ page.interviewee01_episode_shownotes }}'>&nbsp| Show Notes &rarr; </a>
         </h3>
         <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ page.interviewee01_SC_id }}&amp;color=FF0000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-      {% endif %}
     </article>
+  {% endif %}
     
+  {% if page.interviewee02_name %}
     <article class='episode_wrapper'>
-      {% if page.interviewee02_name %}
         <h5 class='episode_number'>#{{ page.interviewee02_episode_number }}</h5>
         <h2 class='keywords'>{{ page.interviewee02_keywords }}</h2>
         <h3 class='interviewee_name'>{{ page.interviewee02_name }}
@@ -42,11 +42,11 @@ layout: default
             href='{{ page.interviewee02_episode_shownotes }}'> &nbsp| Show Notes  &rarr;</a>
         </h3>
         <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ page.interviewee02_SC_id }}&amp;color=FF0000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-      {% endif %}
     </article>
+  {% endif %}
     
+  {% if page.interviewee03_name %}
     <article class='episode_wrapper'>
-      {% if page.interviewee03_name %}
         <h5 class='episode_number'>#{{ page.interviewee03_episode_number }}</h5>
         <h2 class='keywords'>{{ page.interviewee03_keywords }}</h2>
         <h3 class='interviewee_name'>{{ page.interviewee03_name }}
@@ -57,11 +57,11 @@ layout: default
             href='{{ page.interviewee03_episode_shownotes }}'>&nbsp| Show Notes &rarr; </a>
         </h3>
         <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ page.interviewee03_SC_id }}&amp;color=FF0000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-      {% endif %}
     </article>
+  {% endif %}
     
+  {% if page.interviewee04_name %}
     <article class='episode_wrapper'>
-      {% if page.interviewee04_name %}
         <h5 class='episode_number'>#{{ page.interviewee04_episode_number }}</h5>
         <h2 class='keywords'>{{ page.interviewee04_keywords }}</h2>
         <h3 class='interviewee_name'>{{ page.interviewee04_name }}
@@ -72,11 +72,11 @@ layout: default
             href='{{ page.interviewee04_episode_shownotes }}'>&nbsp| Show Notes &rarr; </a>
         </h3>
         <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ page.interviewee04_SC_id }}&amp;color=FF0000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-      {% endif %}
     </article>
+  {% endif %}
     
+  {% if page.interviewee05_name %}
     <article class='episode_wrapper'>
-      {% if page.interviewee05_name %}
         <h5 class='episode_number'>#{{ page.interviewee05_episode_number }}</h5>
         <h2 class='keywords'>{{ page.interviewee05_keywords }}</h2>
         <h3 class='interviewee_name'>{{ page.interviewee05_name }}
@@ -87,8 +87,8 @@ layout: default
             href='{{ page.interviewee05_episode_shownotes }}'>&nbsp| Show Notes &rarr;</a>
         </h3>
         <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ page.interviewee05_SC_id }}&amp;color=FF0000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-      {% endif %}
     </article>
+  {% endif %}
 
   </div>
 {% endif %}
