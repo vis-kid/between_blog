@@ -2,7 +2,6 @@
 layout: post
 title:  "Between | What? - Micro Manifesto"
 date:   2014-12-01 19:05:00
-categories: Manifesto
 ---
 
 Over the last couple of years I’ve listened to my fair share of podcasts about web stuff. There are plenty of great podcasts out there and I have an enormous respect for them. The Ruby, Javascript and Design communities can feel very lucky and proud to have so many ambitious people producing great shows spreading knowledge. Nevertheless I was missing something …

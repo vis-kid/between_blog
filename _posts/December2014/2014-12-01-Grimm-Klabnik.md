@@ -6,8 +6,6 @@ title: "Avdi Grimm | Steve Klabnik"
 
 excerpt: Design patterns | Origins | Useful? | Important design patterns | Learn & apply | Bad reputation? || What is Rake? | Origins | Jim Weirich | Common use cases | Advantages of Rake
 
-categories: Design Patterns Rake Avdi Grimm Steve Klabnik Build Tools
-
 interviewee01_episode_number: 01
 interviewee01_name: Avdi Grimm
 interviewee01_episode_length: 10

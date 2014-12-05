@@ -6,8 +6,6 @@ title: "Coby Chapple | Scott Savarie"
 
 excerpt: Working @ Github | Designer skills | Github company summits || Prototyping ( @ Facebook) | Origami | Quartz Composer | Framer
 
-categories: Github Design Coby Chapple Scott Savarie Prototyping Company Summits Quartz Composer Framer Origami
-
 interviewee01_episode_number: 03
 interviewee01_name: Coby Chapple
 interviewee01_episode_length: 10

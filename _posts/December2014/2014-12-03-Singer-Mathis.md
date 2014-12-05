@@ -6,8 +6,6 @@ title: "Ryan Singer | Brandon Mathis"
 
 excerpt: Masters @ Work - Ryan Singer &#35;01 | Basecamp | Core pillows & logo | Importance of design | Hardest design problems || Octopress & Jekyll | Building Octopress | Improvements for blogs | Prototyping? 
 
-categories: Master @ Work Ryan Singer Basecamp Logo Design Octopress Brandon Mathis Jekyll Blogs Prototyping
-
 interviewee01_episode_number: 05
 interviewee01_name: Ryan Singer
 interviewee01_episode_length: 12
