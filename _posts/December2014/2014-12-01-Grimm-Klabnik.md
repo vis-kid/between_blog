@@ -4,7 +4,7 @@ date: 2014-12-01 20:05:00
 
 title: "Avdi Grimm | Steve Klabnik"
 
-excerpt: Design patterns | Origins | Useful? | Important design patterns | Learn & apply | Bad reputation? || What is Rake? | Origins | Jim Weirich | Common use cases | Advantages of Rake
+excerpt: What is Rake? | Origins | Jim Weirich | Common use cases | Advantages of Rake || Design patterns | Origins | Useful? | Important design patterns | Learn & apply | Bad reputation? 
 
 interviewee01_episode_number: 01
 interviewee01_name: Avdi Grimm
