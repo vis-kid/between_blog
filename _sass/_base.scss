@@ -151,7 +151,10 @@ pre {
 .wrapper {
     max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
     max-width:         calc(800px - (#{$spacing-unit} * 2));
+		margin-top: 20px;
+		@media (min-width: 1000px) {
     margin-top: 87px;
+	  }
 		margin-bottom: 0px;
     margin-right: auto;
     margin-left: auto;
