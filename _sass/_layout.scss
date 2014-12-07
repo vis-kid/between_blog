@@ -9,9 +9,12 @@
 }
 
 .site-header .wrapper {
-  margin-top: 0px;
-	@include media-query($on-palm) {
+  margin-top: 20px;
+  @include media-query($on-palm) {
     margin-top: 25px;
+  }
+  @media (min-width: 1000px) {
+    margin-bottom: 87px;
   }
 }
 
