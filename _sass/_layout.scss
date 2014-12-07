@@ -205,8 +205,8 @@ a.site-title {
 .post-list .post-meta {
 	@media (min-width: 1000px) {
     display: inline-block;
-	  margin-left: -122px;
-	  margin-right: 20px;
+	  margin-left: -131px;
+	  margin-right: 29px;
   }
 }
 
@@ -230,7 +230,10 @@ a.site-title {
 .post-list li {
   border-bottom: 1px solid rgba($grey-color-dark, 0.1);
   padding-bottom: 7px;
-  margin-bottom: 52px;
+  margin-bottom: 50px;
+	@media (min-width: 1000px) {
+    margin-bottom: 49px;
+	}
   &:first-child {
     margin-top: 33px;
 	}
@@ -424,7 +427,7 @@ h3.list-keywords {
   color: $grey-color-dark;
 	font-size: 20px;
 	line-height: 1.55;
-	margin-bottom: 41px;
+	margin-bottom: 42px;
 }
 
 .pagination {
