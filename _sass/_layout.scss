@@ -18,10 +18,17 @@
   }
 }
 
+.red_pipe {
+  color: $red;
+}
+
 a.site-title {
   text-decoration: none;
 	color: $grey-color-dark;
 	&::first-letter {
+    color: $red;
+	}
+	&:nth-child(-2) {
     color: $red;
 	}
 	&:hover {
@@ -34,7 +41,7 @@ a.site-title {
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0px;
-		margin-left: -15px;
+		margin-left: -2px;
     float: left;
     @include media-query($on-laptop) {
       margin-left: 0px;
