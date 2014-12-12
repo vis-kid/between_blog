@@ -14,7 +14,7 @@
     margin-top: 25px;
   }
   @media (min-width: 1000px) {
-    margin-bottom: 87px;
+    margin-bottom: 97px;
   }
 }
 
@@ -215,9 +215,12 @@ a.site-title {
 
 .post-list .post-meta {
 	@media (min-width: 1000px) {
-    display: inline-block;
-	  margin-left: -131px;
-	  margin-right: 19px;
+    margin: {
+      left: -131px;
+      right: 19px;
+      bottom: -37px;
+      top: 59px;
+		}
   }
 }
 
