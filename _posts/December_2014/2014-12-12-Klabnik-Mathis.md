@@ -9,7 +9,7 @@ excerpt: Observer pattern | Implementation | Use cases | Dependency injection | 
 interviewee01_episode_number: 17
 interviewee01_name: Steve Klabnik
 interviewee01_episode_length: 14
-interviewee01_episode_audio_quality: Ok
+interviewee01_episode_audio_quality: Okay
 interviewee01_episode_shownotes: http://between-screens.herokuapp.com/episodes/17
 interviewee01_keywords: Observer pattern | Implementation | Use cases | Dependency injection | Naming | Advantages & downsides | Two way bindings
 interviewee01_SC_id: 181316973
