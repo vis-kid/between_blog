@@ -17,7 +17,7 @@ interviewee01_SC_id: 181786002
 interviewee02_episode_number: 20
 interviewee02_name: Max Luster
 interviewee02_episode_length: 15
-interviewee02_episode_audio_quality: Good
+interviewee02_episode_audio_quality: Okay
 interviewee02_episode_shownotes: http://between-screens.herokuapp.com/episodes/20
 interviewee02_keywords: Importance of rems | Responsive design | Modular scale | Golden ratio | Creating relationships
 interviewee02_SC_id: 181793996
