@@ -2,7 +2,7 @@
 layout: post
 date: 2014-12-16 20:05:00
 
-title: "Weizenbaum | Mendler"
+title: "Natalie Weizenbaum | Daniel Mendler "
 
 excerpt: Q&A with Natalie Weizenbaum | Games | Famous & infamous | Haml | Open source | Coding setup | Daily routine | Working @ Google | Dart | Procrastination | Impostor syndrome || Slim basics | Indentation | Line indicators | HTML tags | Inline HTML | HTML attributes
 
