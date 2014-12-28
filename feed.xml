@@ -15,8 +15,8 @@ title: Atom Feed
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for post in site.posts limit:20 %}
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.excerpt | xml_escape }}</description>
+        <title>{{ post.excerpt | xml_escape }}</title>
+        <description>{{ post.title | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         {% for tag in post.tags %}
