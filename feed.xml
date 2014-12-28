@@ -3,7 +3,6 @@ layout: null
 title: Atom Feed
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
 <link rel="hub" href="http://www.betweenpipes.com"/>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
