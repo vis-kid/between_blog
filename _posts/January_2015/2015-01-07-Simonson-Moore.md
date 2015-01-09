@@ -4,7 +4,7 @@ date: 2015-01-07 20:05:00
 
 title: "Mark Simonson | Parker Moore"
 
-excerpt: Responsive typography | Fluid grids | Adaptive Layouts | Fluid type | Sizing type || Q&A | &#35;01 | Work | Beginnings | Unicorns | Coding setup | Routine | Procrastination | Origins | Languages & frameworks | Pissed off 
+excerpt: Designing typefaces | Process | Naming fonts | Difficulties & joys || Open Source | Getting started | Future model | Intimidation
 
 interviewee01_episode_number: 29
 interviewee01_name: Mark Simonson
