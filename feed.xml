@@ -20,6 +20,7 @@ layout: nil
 				<title>{{ post.title | xml_escape }} 
 					{{ post.excerpt | xml_escape }}</title>
         <published>{{ post.date | date_to_xmlschema }}</published>
+				<updated>{{ post.date | date_to_xmlschema }}</updated>
         <link>href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"</link>
 				<link type="text/html" rel="alternate" href="http://betweenpipes.com{{ post.url }}"/>
 
