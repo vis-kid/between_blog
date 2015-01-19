@@ -12,7 +12,6 @@ layout: nil
       <name>Ed Wassermann</name>
       <email>betweenscreens@gmail.com</email>
     </author>
-    <description>{{ site.description | xml_escape }}</description>
 
     {% for post in site.posts %}
       <entry>
