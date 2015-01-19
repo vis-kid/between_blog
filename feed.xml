@@ -16,7 +16,8 @@ layout: nil
 
     {% for post in site.posts limit:20 %}
       <entry>
-				<title>{{ post.title | xml_escape }} <br> {{ post.excerpt | xml_escape }}</title>
+				<title>{{ post.title | xml_escape }} 
+					{{ post.excerpt | xml_escape }}</title>
         <published>{{ post.date | date_to_xmlschema }}</published>
         <link>href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"</link>
 				<link type="text/html" rel="alternate" href="http://betweenpipes.com{{ post.url }}"/>
