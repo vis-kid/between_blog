@@ -14,10 +14,9 @@ layout: nil
       <email>betweenscreens@gmail.com</email>
     </author>
 
-    {% for post in site.posts %}
+    {% for post in site.posts limit:20 %}
       <entry>
-        <title>{{ post.excerpt | xml_escape }}</title>
-        <description>{{ post.title | xml_escape }}</description>
+				<title>{{ post.title | xml_escape }} — {{ post.excerpt | xml_escape }}</title>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
 
