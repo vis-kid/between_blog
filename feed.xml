@@ -8,6 +8,7 @@ layout: nil
     <link rel="hub" href="http://www.betweenpipes.com"/>
 		<link type="application/atom+xml" rel="self" href="http://betweenpipes.com/atom.xml"/>
     <updated>{{ site.time | date_to_xmlschema }}</updated>
+		<id>http://www.betweenpipes.com/</id>
     <author>
       <name>Ed Wassermann</name>
       <email>betweenscreens@gmail.com</email>
