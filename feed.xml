@@ -6,7 +6,7 @@ layout: nil
 
     <title type='text' xml:lang="en">{{ site.title | xml_escape }} |</title>
     <link rel="hub" href="http://www.betweenpipes.com"/>
-		<link type="application/atom+xml" rel="self" href="http://betweenpipes.com/atom.xml"/>
+		<link type="application/atom+xml" rel="self" href="http://betweenpipes.com/feed.xml"/>
     <updated>{{ site.time | date_to_xmlschema }}</updated>
 		<id>http://www.betweenpipes.com/</id>
     <author>
