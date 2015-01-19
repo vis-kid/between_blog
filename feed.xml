@@ -16,6 +16,7 @@ layout: nil
 
     {% for post in site.posts limit:15 %}
       <entry>
+				<id>http://betweenpipes.com{{ post.id }}</id>
 				<title>{{ post.title | xml_escape }} 
 					{{ post.excerpt | xml_escape }}</title>
         <published>{{ post.date | date_to_xmlschema }}</published>
