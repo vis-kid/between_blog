@@ -10,12 +10,6 @@
 
 .site-header .wrapper {
   margin-top: 20px;
-  @include media-query($on-palm) {
-    margin-top: 25px;
-  }
-  @media (min-width: 1000px) {
-    margin-bottom: 97px;
-  }
 }
 
 .red_pipe {
@@ -207,6 +201,9 @@ a.site-title {
   padding: $spacing-unit 0;
   padding-top: 0px;
   padding-bottom: 0px;
+	.wrapper {
+    margin-top: 70px;
+	}
 }
 
 .page-heading {
@@ -265,7 +262,6 @@ a.site-title {
 .post .post-meta {
   font-size: 24px;
 	color: $red;
-  margin-top: 30px;
   margin-bottom: 42px;
 }
 
@@ -276,7 +272,6 @@ a.site-title {
 }
 
 p.post-meta {
-  margin-top: 33px;
   margin-bottom: 1px;
 }
 
@@ -303,6 +298,7 @@ span.post-meta {
  */
 .post-header {
     margin-bottom: $spacing-unit;
+		margin-top: -35px;
 }
 
 .post-title {
@@ -518,4 +514,8 @@ a.end_of_list_arrow {
 article.post-content {
   font-size: 22px;
   color: $grey-color-dark;
+}
+
+.page-content .wrapper {
+  margin-top: 70px;
 }
