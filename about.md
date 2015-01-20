@@ -7,7 +7,7 @@ permalink: /about/
 This is the official blog for the podcast [Between \| Screens](http://google.com/). Here you will find synopses of newly released episodes and the occasional technical blog post.
 
 Expect to find content about the following topics:
-Ruby, Rails, Sinatra, Sass, Javascript, Design Patterns, Jekyll, Client-Side Web Apps, Typography, Git, Responsive Design, Prototyping, Web Design,  Type Design and more …  
+Ruby, Rails, Sinatra, Sass, Javascript, Design Patterns, Jekyll, Client-Side Web Apps, Rust, Typography, Git, Responsive Design, Prototyping, Web Design,  Type Design and more …  
 
 The elevator pitch for this micro-podcast is to conduct extensive interviews with professional designers & developers and distill multiple small digestible knowledge bombs out of these conversations. The podcast will be free of charge, leave out the industry insider chit chat, include beginners / newbies into the conversation and keep most episodes under 15 minutes.
 
