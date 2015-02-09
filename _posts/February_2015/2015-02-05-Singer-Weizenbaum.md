@@ -18,7 +18,7 @@ interviewee02_episode_number: 56
 interviewee02_SC_id: 189853044
 interviewee02_name: Natalie Weizenbaum
 interviewee02_episode_length: 11
-interviewee02_episode_audio_quality: Good
+interviewee02_episode_audio_quality: Sorry
 interviewee02_episode_shownotes: http://betweenscreens.fm/episodes/56
 interviewee02_keywords: Poor mixins | Extends | Placeholder selectors | Sass output | Framework authors | DRY
 ---
