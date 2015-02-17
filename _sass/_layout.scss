@@ -60,23 +60,6 @@ span.username {
 }
 
 
-#episode_wrapper article {
-	padding-bottom: 50px;
-	margin-bottom: 50px;
-  border-bottom: 1px solid rgba($grey-color-dark, 0.1);
-	&:last-child {
-    border-bottom: none; 
-		margin-bottom: 92px;
-		padding-bottom: 12px;
-	}
-}
-
-.episode_number {
-  font-size: 18px;
-  color: lighten($grey-color, 20%);
-	margin-bottom: 2px;
-}
-
 span.episode_sub_info, .episode_sub_info {
   color: lighten($grey-color, 20%);
   font-style: normal;
@@ -97,27 +80,6 @@ a.show_note_link {
   &:hover {
     color: $red;
 	}
-}
-
-h2.keywords {
-  font-size: 30px;
-	color: $grey-color-dark;
-	line-height: 1.3;
-	margin-bottom: 3px;
-}
-
-h3.interviewee_name {
-  color: $red;
-	font-style: italic;
-	font-size: 20px;
-	margin-bottom: 8px;
-}
-
-h3.list-keywords {
-  color: $grey-color-dark;
-	font-size: 20px;
-	line-height: 1.55;
-	margin-bottom: 42px;
 }
 
 article.post-content {
