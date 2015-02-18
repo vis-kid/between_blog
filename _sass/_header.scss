@@ -1,8 +1,8 @@
 .site-header {
-    border-top: 2px solid $red;
+	border-top: 2px solid $red;
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
+	// Positioning context for the mobile navigation icon
+	position: relative;
 }
 
 .site-header .wrapper {
@@ -28,78 +28,80 @@ a.site-title {
 }
 
 .site-title {
-    font-size: 28px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0px;
-    margin-left: -2px;
-    float: left;
-    @include media-query($on-laptop) {
-      margin-left: 0px;
-    }
+	font-size: 28px;
+	line-height: 56px;
+	letter-spacing: -1px;
+	margin-bottom: 0px;
+	margin-left: -2px;
+	float: left;
+	@include media-query($on-laptop) {
+		margin-left: 0px;
+}
 }
 
 .site-nav {
-  float: right;
-  margin-top: 12px;
+	float: right;
+	margin-top: 12px;
+	@include media-query($on-palm) {
+		margin-top: 0px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.page-link {
+	color: $grey-color-dark;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: $base-line-height;
+	&:hover {
+		color: $red;
+		border-bottom: 1px solid $red;
+  }
+// Gaps between nav items, but not on the first one
+  &:not(:first-child) {
+  	margin-left: 32px;
+  	margin-right: -2px;
+  	}
+  	@include media-query($on-palm) {
+  		&:hover {
+  			color: $grey-color-dark;
+  			border-bottom: none;
+  		}
+  	}
+  }
   @include media-query($on-palm) {
-    margin-top: 0px;
-  }
-  .menu-icon {
-    display: none;
-  }
-  .page-link {
-    color: $grey-color-dark;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: $base-line-height;
-    &:hover {
-      color: $red;
-      border-bottom: 1px solid $red;
-  }
-        // Gaps between nav items, but not on the first one
-    &:not(:first-child) {
-      margin-left: 32px;
-      margin-right: -2px;
-    }
-    @include media-query($on-palm) {
-      &:hover {
-        color: $grey-color-dark;
-        border-bottom: none;
-      }
-    }
-  }
-  @include media-query($on-palm) {
-    margin-top: 19px;
-    background-color: $background-color;
-    border-radius: 5px;
-    text-align: right;
-    .menu-icon {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      text-align: center;
-      > svg {
-        width: 18px;
-        height: 15px;
-        path {
-          fill: $grey-color-dark;
-        }
-      }
-    }
-    .trigger {
-      clear: both;
-      display: none;
-    }
-    &:hover .trigger {
+  	margin-top: 19px;
+  	background-color: $background-color;
+  	border-radius: 5px;
+  	text-align: right;
+  	.menu-icon {
+  		display: block;
+  		float: right;
+  		width: 36px;
+  		height: 26px;
+  		line-height: 0;
+  		text-align: center;
+  		> svg {
+  			width: 18px;
+  			height: 15px;
+  			path {
+  				fill: $grey-color-dark;
+  			}
+  		}
+  	}
+  	.trigger {
+  		clear: both;
+  		display: none;
+  	}
+  	&:hover .trigger {
       display: block;
       padding-bottom: 5px;
     }
-    .page-link {
+  	.page-link {
       display: block;
-    }
+  	}
   }
 }
 
@@ -107,10 +109,9 @@ a.site-title {
   margin-top: 4px;
 }
 
-
 a.page-link.rss-subscribe {
-  font-weight: 400;
-  @include media-query($on-palm) {
-  display: none;
-	}
+	font-weight: 400;
+	@include media-query($on-palm) {
+    display: none;
+  }
 }
