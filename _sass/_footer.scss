@@ -71,3 +71,10 @@
   margin-bottom: 4px;
 }
 
+span.username {
+  color: $grey-color-dark; 
+	margin-bottom: 20px;
+  &:hover {
+    color: $red;
+  }
+}
