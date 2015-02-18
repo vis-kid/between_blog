@@ -34,17 +34,8 @@
   margin-bottom: 1px;
 }
 
-p.post-meta {
-  margin-bottom: 1px;
-}
-
 .post-meta {
   color: lighten($grey-color, 20%);
-}
-
-span.post-meta {
-  margin-bottom: 3px;
-	display: block;
 }
 
 span.username {
@@ -59,28 +50,6 @@ span.username {
   margin-bottom: 4px;
 }
 
-
-span.episode_sub_info, .episode_sub_info {
-  color: lighten($grey-color, 20%);
-  font-style: normal;
-  display: inline;
-	margin-top: 1px;
-	&::first-letter {
-    display: hide;
-		color: white;
-		margin-left: -18px;
-	}
-  @include media-query($on-palm) {
-    display: block;
-  }
-}
-
-a.show_note_link {
-  text-decoration: none;
-  &:hover {
-    color: $red;
-	}
-}
 
 article.post-content {
   font-size: 22px;

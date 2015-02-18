@@ -73,3 +73,29 @@ h3.interviewee_name {
 	font-size: 20px;
 	margin-bottom: 8px;
 }
+
+a.show_note_link {
+  text-decoration: none;
+  &:hover {
+    color: $red;
+	}
+}
+
+span.episode_sub_info, .episode_sub_info {
+  color: lighten($grey-color, 20%);
+  font-style: normal;
+  display: inline;
+	margin-top: 1px;
+	&::first-letter {
+    display: hide;
+		color: white;
+		margin-left: -18px;
+	}
+  @include media-query($on-palm) {
+    display: block;
+  }
+}
+
+p.post-meta {
+  margin-bottom: 1px;
+}
