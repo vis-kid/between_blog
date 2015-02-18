@@ -63,3 +63,7 @@ span.post-meta {
   margin-bottom: 3px;
 	display: block;
 }
+
+.post-meta {
+  color: lighten($grey-color, 20%);
+}

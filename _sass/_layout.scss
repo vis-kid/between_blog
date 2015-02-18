@@ -18,24 +18,10 @@
     font-size: 20px;
 }
 
-.post .post-meta, .post .post-meta-small {
-  color: lighten($grey-color, 20%);
-}
-
-.post .post-meta {
-  font-size: 24px;
-	color: $red;
-  margin-bottom: 42px;
-}
-
 .post .post-meta-small {
   font-size: 18px;
   margin-top: 33px;
   margin-bottom: 1px;
-}
-
-.post-meta {
-  color: lighten($grey-color, 20%);
 }
 
 span.username {
