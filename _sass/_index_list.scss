@@ -1,67 +1,65 @@
 .post-list .post-meta {
-	@media (min-width: 1000px) {
+  @media (min-width: 1000px) {
     margin: {
       left: -131px;
       right: 19px;
       bottom: -37px;
       top: 59px;
-		}
+    }
   }
 }
 
 .post-list h2 {
   margin-bottom: 0px;
-	@media (min-width: 1000px) {
-	  display: inline-block;
+  @media (min-width: 1000px) {
+    display: inline-block;
   }
 }
 
-
 .post-list {
-    margin-left: 0;
-    list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
+  margin-left: 0;
+  list-style: none;
+  > li {
+    margin-bottom: $spacing-unit;
+  }
 }
 
 .post-list li {
   border-bottom: 1px solid rgba($grey-color-dark, 0.1);
   padding-bottom: 7px;
   margin-bottom: 50px;
-	@media (min-width: 1000px) {
+  @media (min-width: 1000px) {
     margin-bottom: 49px;
-	}
+  }
   &:first-child {
     margin-top: 33px;
-	}
+  }
   &:last-child {
     border-bottom: none;
     padding-bottom: 0px;
     margin-bottom: 0px;
-	}
+  }
 }
 
 .post-link {
   font-size: 30px;
-	line-height: 1.25;
+  line-height: 1.25;
   &:hover {
-    color: $red;     
+    color: $red;
     border-bottom: 2px solid $red;
   }
 }
 
 h3.list-keywords {
   color: $grey-color-dark;
-	font-size: 20px;
-	line-height: 1.55;
-	margin-bottom: 42px;
+  font-size: 20px;
+  line-height: 1.55;
+  margin-bottom: 42px;
 }
 
 span.post-meta {
   margin-bottom: 3px;
-	display: block;
+  display: block;
 }
 
 .post-meta {

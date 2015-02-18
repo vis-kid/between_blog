@@ -1,18 +1,18 @@
 img.cube_logo {
-	display: block;
+  display: block;
   width: 8.8%;
-	height: 8.8%;
-	padding-top: 23px;
-	margin-bottom: -77px;
-	margin-left: -137px;
-	opacity: 0;
-	&:hover {
+  height: 8.8%;
+  padding-top: 23px;
+  margin-bottom: -77px;
+  margin-left: -137px;
+  opacity: 0;
+  &:hover {
     opacity: 0;
-	}
-	@media (min-width: 1000px) {
-		opacity: 1;
-		&:hover {
+  }
+  @media (min-width: 1000px) {
+    opacity: 1;
+    &:hover {
       opacity: 0.8;
-		}
-	}
+    }
+  }
 }

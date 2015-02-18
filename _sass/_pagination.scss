@@ -10,11 +10,11 @@
   color: $grey-color-dark;
   &:first-child {
     margin-left: 0px;
-	}
+  }
   &:hover {
     border-bottom: 1px solid $red;
     color: $red;
-	}
+  }
 }
 
 .pagination em {
@@ -31,14 +31,14 @@ a.active_paginator_text {
   &:hover {
     color: $red;
     border-bottom: 1px solid $red;
-	}
+  }
   @include media-query($on-palm) {
     font-size: 26px;
   }
 }
 
 .inactive_paginator_text {
-	display: none;
+  display: none;
 }
 
 a.home_arrow, a.end_of_list_arrow {
@@ -46,7 +46,7 @@ a.home_arrow, a.end_of_list_arrow {
   &:hover {
     border-bottom: 1px solid $red;
     color: $red;
-	}
+  }
 }
 
 a.home_arrow {
@@ -59,12 +59,12 @@ a.end_of_list_arrow {
 }
 
 .inactive_arrow {
-	display: none;
+  display: none;
 }
 
 .pagination_links_wrapper {
   display: inline;
-	@include media-query($on-palm) {
+  @include media-query($on-palm) {
     display: none;
   }
 }
