@@ -105,3 +105,15 @@ p.post-meta {
 	color: $red;
   margin-bottom: 42px;
 }
+
+article.post-content {
+  font-size: 22px;
+  color: $grey-color-dark;
+}
+
+.post .post-meta-small {
+  font-size: 18px;
+  margin-top: 33px;
+  margin-bottom: 1px;
+  color: lighten($grey-color, 20%);
+}
