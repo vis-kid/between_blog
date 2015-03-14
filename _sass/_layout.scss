@@ -19,5 +19,15 @@
 }
 
 #mini_player {
-  margin-bottom: 34px;
+  margin: {
+    top: 28px;
+		bottom: 15px;
+	}
+}
+
+.page-title {
+  margin: {
+    bottom: -7px;
+    top: 14px;
+  }
 }
