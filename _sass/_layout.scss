@@ -12,6 +12,9 @@
   .wrapper {
     margin-top: 70px;
   }
+  hr {
+    opacity: .2;
+	}
 }
 
 .page-content .wrapper {
@@ -30,4 +33,11 @@
     bottom: -7px;
     top: 14px;
   }
+}
+
+.post-content a {
+  &:hover {
+    color: $red;
+    border-bottom: 1px solid $red;
+	}
 }
