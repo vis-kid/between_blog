@@ -51,7 +51,6 @@ Aaron Draplin reflects a bit on his life and future, talks about logical and pra
 * [Aaron Draplin’s logo for the Obama administration](http://gentlepurespace.com/blog/archives/new-logos-for-obama-administration-by-chris-glass-and-aaron-draplin)
 
 <br>
-<br>
 <hr>
 <br>
 <br>
@@ -88,8 +87,6 @@ A little while ago Trent Walton wrote a blog post about [fluid type](http://tren
 * [Fluid type](http://trentwalton.com/2012/06/19/fluid-type/)
 
 <br>
-<br>
-<br>
 <hr>
 <br>
 <br>
@@ -124,8 +121,7 @@ Randy J. Hunt wrote an excellent book about [Product Design](http://www.amazon.c
 * [Randy J. Hunt](http://randyjhunt.com/)
 
 * [Product Design for the Web](http://www.amazon.com/gp/product/0321929039/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0321929039&linkCode=as2&tag=vocabinet-20)
-<br>
-<br>
+
 <br>
 <hr>
 <br>
@@ -169,7 +165,7 @@ Scott Savarie is a product designer and talks in this interview about various pr
 <br>
 <br>
 
-### [Coby Chapple | Prototyping ( @ Github ) | Feature flags | Sass | Bootstrap | Internal tools | Remote work](http://betweenscreens.fm/episodes/63)
+### [Coby Chapple | Prototyping ( @ Github ) | Feature flags | Sass | Bootstrap | Internal tools | Remote work](http://betweenscreens.fm/episodes/38)
 
 ![Coby Chapple](/assets/interviewee_pics/Coby_Chapple.jpg)
 
@@ -186,15 +182,15 @@ Coby Chapple is a product designer at Github and shares his insights about proto
 
 <br>
 
-<iframe width="90%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193837214&amp;color=FF0000&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/186191230&amp;color=FF0000&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
 
 <br>
 
-* [Podcast show notes](http://betweenscreens.fm/episodes/63)
+* [Podcast show notes](http://betweenscreens.fm/episodes/38)
 
-* [SoundCloud](http://betweenscreens.fm/episodes/63)
+* [SoundCloud](https://soundcloud.com/between-screens/coby-chapple-prototyping-github-internal-tools-sass-bootstrap-remote-work)
 
-* [iTunes](http://betweenscreens.fm/episodes/63)
+* [iTunes](https://itunes.apple.com/us/podcast/between-screens-podcast/id961251276)
 
 * [Coby Chapple](http://cobyism.com/)
 
