@@ -1,20 +1,22 @@
 ---
 layout: post
-title:  "Roundup from interviews with Aaron Draplin | Trent Walton | Randy J. Hunt | Scott Savarie | Coby Chapple"
+title:  "Design roundup | #01 | Aaron Draplin | Trent Walton | Randy J. Hunt | Scott Savarie | Coby Chapple"
 date:   2015-03-24 19:05:00
-excerpt: Logo shapes | Symmetry | Design process | Obama logo || Responsive typography | Fluid grids | Adaptive Layouts | Fluid type | Sizing type || Product design | Unicorns | Researchers | Frontend | Etsy || Prototyping @ Github | Sass | Bootstrap | Internal tools | Remote work || Prototyping @ Facebook | Origami | Quartz Composer | Framer
+excerpt: Logo shapes | Symmetry | Design process | Obama logo || Responsive typography | Fluid grids | Adaptive Layouts | Fluid type | Sizing type || Product design | Unicorns | Researchers | Frontend | Etsy || Prototyping @ Facebook | Origami | Quartz Composer | Framer || Prototyping @ Github | Sass | Bootstrap | Internal tools | Remote work
 ---
 This is a roundup from 5 interviews with influential designers on the micro podcast [Between \| Screens](http://www.betweenscreens.fm). 
 
 Topics discussed include the following: 
 
-Logo shapes \| Symmetry \| Design process \| Obama logo \| Responsive typography \| Fluid grids \| Adaptive Layouts \| Fluid type \| Sizing type \| Product design \| Unicorns \| Researchers \| Frontend \| Etsy \| Prototyping @ Github \| Sass \| Bootstrap \| Internal tools \| Remote work \| Prototyping @ Facebook \| Origami \| Quartz Composer \| Framer
+Logo shapes \| Symmetry \| Design process \| Obama logo \| Responsive typography \| Fluid grids \| Adaptive Layouts \| Fluid type \| Sizing type \| Product design \| Unicorns \| Researchers \| Frontend \| Etsy \| Prototyping @ Facebook \| Origami \| Quartz Composer \| Framer \| Prototyping @ Github \| Sass \| Bootstrap \| Internal tools \| Remote work
 
 <br>
 
 ### [Aaron Draplin | Logo shapes | Symmetry | Design process | Feedback | Obama logo | Retirement ](http://betweenscreens.fm/episodes/77)
 
 ![Aaron Draplin](/assets/interviewee_pics/Aaron_Draplin_Red.jpg)
+
+##### [Aaron Draplin](https://twitter.com/draplin) is a designer and founder of the [Draplin Design Co.](http://draplin.com/) in Portland, Oregon. He is famous for his [logo work](http://www.draplin.com/work/), being very outspoken and for producing notebooks for designers. 
 
 <br>
 
@@ -59,6 +61,8 @@ Aaron Draplin reflects a bit on his life and future, talks about logical and pra
 
 ![Trent Walton](/assets/interviewee_pics/Trent_Walton_Red.jpg)
 
+##### [Trent Walton](https://twitter.com/trentwalton) is 1/3 of [Paravel](http://paravelinc.com/), a well known web design & branding shop  in Austin, Texas. He writes excellent [blog posts](http://trentwalton.com/), designs stuff for Microsoft, Twitter etc. and is an overall nice guy.
+
 <br>
 
 >#**“** 
@@ -95,7 +99,7 @@ A little while ago Trent Walton wrote a blog post about [fluid type](http://tren
 
 ![Randy J. Hunt](/assets/interviewee_pics/Randy_J_Hunt_Red.jpg)
 
-<br>
+##### [Randy J. Hunt](https://twitter.com/randyjhunt) is the creative director at Etsy in NYC, author of the book [Product Design for the Web](http://t.co/THPIa6fy5r), receiver of the [*National Design Award*](http://www.smithsonianmag.com/smithsonian-institution/cooper-hewitt-gets-crafty-honors-etsy-national-design-award-180951273/?no-ist) and groomer of impressive beards. <br>
 
 >#**“** 
 >
@@ -104,7 +108,7 @@ A little while ago Trent Walton wrote a blog post about [fluid type](http://tren
 >#**”** 
 
 <br>
-Randy J. Hunt wrote an excellent book about [Product Design](http://www.amazon.com/gp/product/0321929039/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0321929039&linkCode=as2&tag=vocabinet-20) which portrays very detail-oriented what a product designer needs to be capable of and what day-to-day decisions are being tackled working on big-ish web products. In this interview we talk about the role of a product designer, the unattainable myth of unicorns and people who are experts in multiple fields without just skating the surface. Randy also explains what they expect from designers and frontent people at Etsy, what he thinks about splitting up UX & design and why research is valuable being a bit more discrete. 
+Randy J. Hunt wrote an excellent [book](http://t.co/THPIa6fy5r) about product design which portrays very detail-oriented what a product designer needs to be capable of and what day-to-day decisions are being tackled working on big-ish web products. In this interview we talk about the role of a product designer, the unattainable myth of unicorns and people who are experts in multiple fields without just skating the surface. Randy also explains what they expect from designers and frontent people at Etsy, what he thinks about splitting up various design skills into separate positions and why research is valuable being a bit more discrete. 
 
 <br>
 
@@ -131,6 +135,8 @@ Randy J. Hunt wrote an excellent book about [Product Design](http://www.amazon.c
 
 ![Scott Savarie](/assets/interviewee_pics/scott_savarie_Red.jpg)
 
+##### [Scott Savarie](https://twitter.com/scottsavarie) is a product designer at Facebook in California, worked previously at [edenspiekermann_](http://www.edenspiekermann.com/),  recently built a prototyping tool called [Napkin](http://designwithnapkin.com/) and is in love with Berlin.
+
 <br>
 
 >#**“** 
@@ -140,7 +146,9 @@ Randy J. Hunt wrote an excellent book about [Product Design](http://www.amazon.c
 >#**”** 
 
 <br>
-Scott Savarie is a product designer and talks in this interview about various prototyping tools that he likes and uses for his work on mobile apps at Facebook. He gives a high-level pitch about Quartz Composer, Framer and Origami, a prototyping tool that Facebook recently released. Scott explains the pros and cons of working with tools like Photoshop, Sketch and discusses the downsides of implementing designs right away in code. The main advantages of these prototyping tools are described to make it easy to quickly try out various interactions, gestures and behaviours which graphical editors can’t replicate. <br>
+Scott Savarie talks in this interview about various prototyping tools that he likes and uses for his work on mobile apps at Facebook. He gives a high-level pitch about Quartz Composer, Framer and Origami, a prototyping tool that Facebook recently released. Scott explains the pros and cons of working with tools like Photoshop, Sketch and discusses the downsides of implementing designs right away in code. The main advantages of prototyping tools are described to make it easy to quickly try out various interactions, gestures and behaviours which graphical editors can’t replicate. 
+
+<br>
 
 <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/179956826&amp;color=FF0000&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
 
@@ -169,6 +177,8 @@ Scott Savarie is a product designer and talks in this interview about various pr
 
 ![Coby Chapple](/assets/interviewee_pics/Coby_Chapple.jpg)
 
+##### [Coby Chapple](https://twitter.com/cobyism) is a product designer at Github and works remotely from Northern Ireland. He has built the site and designed the logo for [Jekyll](http://jekyllrb.com/), gives fantastic [talks](https://speakerdeck.com/cobyism) and competed as a breakdancer in the past.  
+
 <br>
 
 >#**“** 
@@ -178,7 +188,7 @@ Scott Savarie is a product designer and talks in this interview about various pr
 >#**”** 
 
 <br>
-Coby Chapple is a product designer at Github and shares his insights about prototyping and working remote in this episode. Github has a visual style that is well established which makes it easier to prototype new designs directly in code without relying too much on other prototyping tools like Framer, Quartz Composer or mockups. Coby explains how Github uses feature flags to incrementally try out new features and how convenient it is to get feedback from other co-workers who work remotely in different timezones. You will also get an insight how Github organizes teams, what tools they use internally, why they are not using Bootstrap much and why their designs don’t use a lot of Sass’s more advanced features. 
+Coby Chapple shares his insights about prototyping and working remote in this episode. Github has a visual style that is well established which makes it easier to prototype new designs directly in code without relying too much on other prototyping tools like Framer, Quartz Composer or wireframes. Coby explains how Github uses feature flags to incrementally try out new features and how convenient it is to get feedback from other co-workers who work remotely in different timezones. You will also get an insight how Github organizes teams, what tools they use internally, why they are not using Bootstrap much and why their designs don’t use a lot of Sass’s more advanced features. 
 
 <br>
 
