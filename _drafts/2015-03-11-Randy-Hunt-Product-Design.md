@@ -1,15 +1,16 @@
 ---
 layout: page
 title:  "Transcription | Randy J. Hunt | Product design"
-date:   2015-03-11 19:05:00
+date:   1915-03-11 19:05:00
 excerpt: '( 7 min read )'
 
 small_player_SC_id: 195009424  
 folder_image_path: Randy_J_Hunt/Randy_J_Hunt_Red.jpg
 image_alt: Randy J. Hunt
 ---
+This is a clean read transcription of my interview about product design with [Randy J. Hunt](https://twitter.com/randyjhunt). Randy is the creative director at Etsy in NYC, author of the book [Product Design for the Web](http://t.co/THPIa6fy5r), receiver of the [*National Design Award*](http://www.smithsonianmag.com/smithsonian-institution/cooper-hewitt-gets-crafty-honors-etsy-national-design-award-180951273/?no-ist) and groomer of impressive beards.
 
-This is a clean read transcription of my interview about product design with the creative director at Etsy, Randy J. Hunt.
+<br>
 
 ***Q:** What is a product designer from your point of view?*
 
