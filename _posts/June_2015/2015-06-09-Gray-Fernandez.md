@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2015-06-09 20:05:00
-title: "James Edward Gray II || Obie Fernandez" 
+title: "James Edward Gray II | Obie Fernandez" 
 
 excerpt: Work | Starting out | BASIC | Improving coding skills | Rabbit holes | Challenges | Ruby skills | Focus | Ruby on Rails | Pickaxe book | Becoming overwhelmed | Small projects | Multi User Dungeon || Q&A | &#35;02 | Impostor syndrome | Growth scenario | Hashrocket | Social contract | Humility | Proven paths | “Getting Things Done” | African engineers | Taking risks | Procrastination | Virtual assistants | Delegation
 
