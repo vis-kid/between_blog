@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2015-07-03 20:05:00
+date: 2015-06-25 20:05:00
 title: "Chad Pytel | Obie Fernandez" 
 
 excerpt: Q&A | &#35;02 | Procrastination | Self-realization | Shipping everyday | Impostor syndrome | Growing up | Education | Discrimination | Comedy | Traveling | Status quo | Female coworkers | Minority status || Growing up | Kids | Languages & frameworks | Node.js | JavaScript | CoffeeScript | Firebase | Angualr.js | Material Design | Creative urge | Pissed off | “American Dream” | Female co-workers | Adverse environment | DevChix 
