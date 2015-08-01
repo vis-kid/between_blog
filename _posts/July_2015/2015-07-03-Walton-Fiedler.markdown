@@ -15,7 +15,7 @@ interviewee01_keywords: Q&A | &#35;05 | Escapism | Books | Burnout | Decompressi
 
 interviewee02_episode_number: 127
 interviewee02_SC_id: 213672417
-interviewee02_name: Kyle Fiedler
+interviewee02_name:  Kyle Fiedler
 interviewee02_episode_length: 10
 interviewee02_episode_audio_quality: Good
 interviewee02_episode_shownotes: http://betweenscreens.fm/episodes/127
